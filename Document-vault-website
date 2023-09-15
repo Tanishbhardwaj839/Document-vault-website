@@ -1,1 +1,56 @@
-html,css,java script
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Document Vault</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Blockchain Document Vault</h1>
+        <p>Securely store and access your documents on the blockchain</p>
+    </header>
+
+    <main>
+        <section class="cta">
+            <h2>Why Choose Us?</h2>
+            <p>Our platform offers:</p>
+            <ul>
+                <li>Decentralized document storage</li>
+                <li>End-to-end encryption</li>
+                <li>Immutable document records</li>
+                <li>Easy document retrieval</li>
+            </ul>
+            <a href="#signup">Get Started</a>
+        </section>
+
+        <section class="features">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="security-icon.png" alt="Security Icon">
+                <h3>Enhanced Security</h3>
+                <p>Your documents are encrypted and stored securely on the blockchain.</p>
+            </div>
+            <div class="feature">
+                <img src="access-icon.png" alt="Access Icon">
+                <h3>Easy Access</h3>
+                <p>Retrieve your documents anytime, anywhere with a simple user interface.</p>
+            </div>
+            <!-- Add more features as needed -->
+        </section>
+    </main>
+
+    <section id="signup" class="signup">
+        <h2>Get Started Today</h2>
+        <p>Create an account or log in to begin storing your documents securely.</p>
+        <a href="signup.html">Sign Up</a>
+        <a href="login.html">Log In</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Blockchain Document Vault</p>
+        <p>Designed by Tanish Bhardwaj</p> <!-- Added designer credit -->
+    </footer>
+</body>
+</html>
